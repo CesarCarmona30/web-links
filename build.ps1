@@ -1,3 +1,4 @@
+git pull
 venv/Scripts/activate
 pip install --upgrade pip
 pip install -r requirements.txt
@@ -7,3 +8,6 @@ reflex export --frontend-only
 Expand-Archive frontend.zip public
 Remove-Item frontend.zip
 deactivate
+git add .
+git commit -m "update project"
+git push
