@@ -13,8 +13,7 @@ def links() -> rx.Component:
       "Mi GH profile", 
       "icons/github.svg",
       "https://github.com/CesarCarmona30",
-      True,
-      Color.SECONDARY.value
+      highlight_color=Color.SECONDARY.value
     ),
     link_button(
       "LinkedIn",
