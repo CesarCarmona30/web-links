@@ -2,17 +2,19 @@ import reflex as rx
 import datetime
 from web_links.styles.styles import Size, Spacing
 from web_links.styles.styles import Color, TextColor
+from web_links.components.link_icon import link_icon
 
 def footer() -> rx.Component:
     return rx.vstack(
-        rx.image(
-            src="./icons/code.svg",
-            height=Size.VERY_BIG.value,
+        link_icon(
+            "./icons/code.svg",
+            "https://github.com/cesarcarmona30/web-links",
+            "Source code",
             width=Size.VERY_BIG.value,
-            alt=""
+            height=Size.VERY_BIG.value,
         ),
         rx.link(
-            f"{datetime.date.today().year} ©César Carmona",
+            f"{datetime.date.today().year} - ©César Carmona",
             href="https://github.com/cesarcarmona30/",
             is_external=True,
             font_size=Size.MEDIUM.value

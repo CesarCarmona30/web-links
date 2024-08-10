@@ -11,7 +11,7 @@ def navbar() -> rx.Component:
                 rx.text("Links", as_="span", color=TextColor.HEADER.value),
                 style=styles.navbar_title_style
             ),
-            # href=Route.INDEX.value
+            href="/"
         ),
         position="sticky",
         bg=Color.CONTENT.value,

@@ -36,12 +36,16 @@ def header() -> rx.Component:
           link_icon(
             "./icons/ipn_white.svg",
             "https://www.ipn.mx",
-            "alt"
+            "alt",
+            Size.LARGE.value,
+            Size.LARGE.value
           ),
           link_icon(
             "./icons/upiicsa_white.svg",
             "https://www.upiicsa.ipn.mx",
-            "alt"
+            "alt",
+            Size.LARGE.value,
+            Size.LARGE.value
           ),
           spacing=Spacing.LARGE.value,
           padding_top=Size.SMALL.value
@@ -74,14 +78,16 @@ def header() -> rx.Component:
     ),
     rx.text(
       """
-      Lorem ipsum dolor sit amet, 
-      consectetur adipiscing elit. 
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
       Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-      Ut enim ad minim.
+      Ut enim ad minim veniam, 
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+      Duis aute irure dolor in reprehenderit.
       """,
       font_size=Size.DEFAULT.value,
       color=TextColor.BODY.value
     ),
     width="100%",
-    spacing=Size.BIG.value
+    spacing=Size.BIG.value,
+    align_items="start"
   )

@@ -33,6 +33,6 @@ app.add_page(
     index,
     title="Links",
     description="Web de enlaces a mis redes sociales elaborado con Python puro utilizando Reflex.",
-    image= "./icons/code.svg"
+    image="favicon.ico"
 )
 app._compile()
