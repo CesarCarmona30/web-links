@@ -1,4 +1,4 @@
-# Web de links
+# 📎[Web de links](https://web-links-hazel.vercel.app/)
 
 [![Python](https://img.shields.io/badge/Python-3.11+-yellow?style=for-the-badge&logo=python&logoColor=white&labelColor=101010)](https://python.org)
 [![Reflex](https://img.shields.io/badge/Reflex-0.4.5+-5646ED?style=for-the-badge&logo=reflex&logoColor=white&labelColor=101010)](https://reflex.dev)
@@ -63,7 +63,7 @@ deactivate
 
 > El proyecto se puede desplegar en cualquier proveedor o servidor que soporte recursos estáticos.
 > 
-> [Éste prooyecto](https://webb-links-hazel.vercel.apps/) se encuentra desplegado en [Vercel](https://vercel.com).
+> [Éste proyecto](https://webb-links-hazel.vercel.apps/) se encuentra desplegado en [Vercel](https://vercel.com).
 
 Configuración en Vercel:
 
