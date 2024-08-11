@@ -29,7 +29,7 @@ def header() -> rx.Component:
         rx.text(
           "@CesarCarmona",
           margin_top=Size.ZERO.value,
-          color=Color.SECONDARY.value
+          color=TextColor.BODY.value
         ),
         rx.hstack(
           link_icon(
